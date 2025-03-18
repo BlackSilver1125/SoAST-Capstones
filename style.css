@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #ffffff;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 220px;
+    background: #0b9212;
+    padding: 25px;
+    height: 100%;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    transition: 1s ease-in-out;
+    float: left;
+    height: 90vh;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu-icon {
+    background: white;
+    border-radius: 21px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 26px !important;
+    color: #6d6ae8;
+    font-size: 12px !important;
+    position:  absolute;
+    right: -18px;
+    top: 60px;
+    border:  3px solid #1cd604;
+    box-shadow: 0px 2px 15px 2px #959595;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -ms-border-radius: 21px;
+    -o-border-radius: 21px;
+}
+
+
+.sidenav {
+    margin-top: 20px;
+}
+
+.sidenav li {
+    list-style: none;
+    padding: 12px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.sidenav li:hover {
+    background-color: rgba(124, 125, 182, .06);
+}
+
+.sidenav li i {
+    padding-right: 7px;
+    color: white;
+}
+
+.sidenav li a {
+text-decoration: none;
+color: white;
+}
+
+.active {
+    position: relative;
+}
+
+.sidenav li span {
+    float: right;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    left: -24px;
+    width: -.25rem;
+    height: 2.5rem;
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -ms-border-radius: 0px 5px 5px 0px;
+    -o-border-radius: 0px 5px 5px 0px;
+}
+
+.active1 {
+    width: 40px;
+    transition: 1s ease-in-out;
+}
+
+.menuicon {
+    transform: rotateZ(-180deg);
+    transition: 1s ease-in-out;
+    -webkit-transform: rotateZ(-180deg);
+    -moz-transform: rotateZ(-180deg);
+    -ms-transform: rotateZ(-180deg);
+    -o-transform: rotateZ(-180deg);
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+
+.lislide {
+    padding: 8px 11px !important;
+    font-size: 1s ease-in-out;
+}
+
+.lm {
+    text-align: center;
+    font-size: 30px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.anchor  {
+    display: none;
+}
+
+.headspan {
+    display: none;
+}
